@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="34771" started-at="2024-01-04T04:53:30Z" finished-at="2024-01-04T04:54:04Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="34771" started-at="2024-01-04T04:53:30Z" finished-at="2024-01-04T04:54:04Z">
+      <class name="com.selenium.jenkins.NewTest">
+        <test-method status="PASS" signature="precondition1()[pri:0, instance:com.selenium.jenkins.NewTest@1e67b872]" name="precondition1" is-config="true" duration-ms="16734" started-at="2024-01-04T04:53:30Z" finished-at="2024-01-04T04:53:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition1 -->
+        <test-method status="PASS" signature="precondition1()[pri:0, instance:com.selenium.jenkins.Test@60addb54]" name="precondition1" is-config="true" duration-ms="12661" started-at="2024-01-04T04:53:46Z" finished-at="2024-01-04T04:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition1 -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.selenium.jenkins.NewTest@1e67b872]" name="test" duration-ms="449" started-at="2024-01-04T04:53:59Z" finished-at="2024-01-04T04:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.selenium.jenkins.NewTest@1e67b872]" name="closebrowser" is-config="true" duration-ms="2189" started-at="2024-01-04T04:54:00Z" finished-at="2024-01-04T04:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.selenium.jenkins.Test@60addb54]" name="closebrowser" is-config="true" duration-ms="2291" started-at="2024-01-04T04:54:02Z" finished-at="2024-01-04T04:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.selenium.jenkins.NewTest -->
+      <class name="com.selenium.jenkins.Test">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.selenium.jenkins.Test@60addb54]" name="test" duration-ms="397" started-at="2024-01-04T04:53:59Z" finished-at="2024-01-04T04:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.selenium.jenkins.Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
